@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>CRUD Local JavaScript</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-titulo">
+        <h1>CRUD Local JavaScript</h1>
+    </div>
+    
+    <div class="contenedor">
+
+        <div class="div-formulario">
+            <h2>Formulario</h2>
+
+            <form action="/validar" id="formulario" method="post">
+                <input type="text" name="nombre" id="nombre" placeholder="nombre"><br><br>
+                <input type="text" name="telefono " id="telefono" placeholder="telefono"><br><br>
+                <input type="text" name="mensaje" id="mensaje" placeholder="mensaje"><br><br>
+                <button type="button" id="btnAgregar">Agregar</button>
+            </form>
+            
+        </div>
+
+        <div class="div-listado">
+            <h2>Listado Empleados</h2>
+            <div class="div-empleados">
+                
+            </div>
+        </div>
+
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
