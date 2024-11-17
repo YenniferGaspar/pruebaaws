@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef7ab1f3-3e3c-4aaf-96c5-f17cdff38cf6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/model/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/SaleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/agregarCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/customersInactivos.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/editarCustomer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sale.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/Catalina/localhost/T03_BodegaLaEsquinita_P.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/Catalina/localhost/T03_BodegaLaEsquinita_P.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost.2024-10-28.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/localhost.2024-10-28.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/SupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/SupplierController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/dto/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/model/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/prueba/PruebaProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/prueba/PruebaProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/SupplierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/SupplierService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/agregarProducto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/agregarProducto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editarProducto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editarProducto.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/productos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/productos.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/Catalina/localhost/T03_BodegaLaEsquinita_P/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/Catalina/localhost/T03_BodegaLaEsquinita_P/org/apache/jsp/productos_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/work/Catalina/localhost/T03_BodegaLaEsquinita_P/org/apache/jsp/productos_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/Catalina/localhost/T03_BodegaLaEsquinita_P/org/apache/jsp/productos_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/work/Catalina/localhost/T03_BodegaLaEsquinita_P/org/apache/jsp/productos_jsp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/CustomerController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/ProductController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/SaleController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/controller/SupplierController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/db/ConexionDB.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/model/Customer.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/model/Product.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/model/Sale.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/prueba/PruebaProduct.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/CustomerService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/ProductService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/SaleService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/vallegrande/service/SupplierService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/agregarCustomer.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/agregarProducto.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/customer.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/editarCustomer.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/editarProducto.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/home.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/productos.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/productosInactivos.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/sale.jsp" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" root2="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2n2E5ZgpHbgxdzxoYkLCMoUhESX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Agregar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConexionDB.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat 9.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.Unnamed (1).executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.Unnamed (2).executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/maestroProduct&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/AS232S3_T03-be/T03_BodegaLaEsquinita_P/src/main/webapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.Unnamed">
+    <configuration name="ConexionDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.vallegrande.db.ConexionDB" />
+      <module name="T03_BodegaLaEsquinita_P" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.vallegrande.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConexionDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pe.edu.vallegrande.db.ConexionDB" />
+      <module name="T03_BodegaLaEsquinita_P" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.vallegrande.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P" />
+      <option name="contextPath" value="/T03_BodegaLaEsquinita_P" />
+      <option name="docBase" value="C:\AS232S3_T03-be\T03_BodegaLaEsquinita_P\src\main\webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.93" />
+          <option name="path" value="$PROJECT_DIR$/../../ValleGrande/IntelliJ/apache-tomcat-9.0.93" />
+          <option name="version" value="9.0.93.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="T03_BodegaLaEsquinita_P" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\51944\.SmartTomcat\T03_BodegaLaEsquinita_P\T03_BodegaLaEsquinita_P" />
+      <option name="contextPath" value="/T03_BodegaLaEsquinita_P" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.93" />
+          <option name="path" value="$PROJECT_DIR$/../../../ValleGrande/IntelliJ/apache-tomcat-9.0.93" />
+          <option name="version" value="9.0.93.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="T03_BodegaLaEsquinita_P" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConexionDB" />
+      <item itemvalue="Smart Tomcat.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConexionDB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef7ab1f3-3e3c-4aaf-96c5-f17cdff38cf6" name="Changes" comment="" />
+      <created>1728162590511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728162590511</updated>
+      <workItem from="1728162592459" duration="5298000" />
+      <workItem from="1728245645261" duration="1000000" />
+      <workItem from="1728332146038" duration="572000" />
+      <workItem from="1728418655516" duration="2435000" />
+      <workItem from="1728439050666" duration="674000" />
+      <workItem from="1728439836274" duration="211000" />
+      <workItem from="1728441176441" duration="6014000" />
+      <workItem from="1728484303427" duration="11562000" />
+      <workItem from="1728603363278" duration="584000" />
+      <workItem from="1728624420684" duration="6478000" />
+      <workItem from="1728701722933" duration="317000" />
+      <workItem from="1728940816530" duration="3442000" />
+      <workItem from="1729257581653" duration="171000" />
+      <workItem from="1729257994129" duration="75000" />
+      <workItem from="1729258336774" duration="10264000" />
+      <workItem from="1729298638914" duration="17928000" />
+      <workItem from="1729368642667" duration="3523000" />
+      <workItem from="1729372863920" duration="5725000" />
+      <workItem from="1729378683616" duration="1825000" />
+      <workItem from="1729380539196" duration="2292000" />
+      <workItem from="1729482724558" duration="1241000" />
+      <workItem from="1729484187599" duration="472000" />
+      <workItem from="1729484741116" duration="8000" />
+      <workItem from="1729775980685" duration="3046000" />
+      <workItem from="1729862927653" duration="7001000" />
+      <workItem from="1729873900363" duration="2358000" />
+      <workItem from="1729889569569" duration="15349000" />
+      <workItem from="1729906109451" duration="1102000" />
+      <workItem from="1729907745424" duration="9442000" />
+      <workItem from="1729955410543" duration="9410000" />
+      <workItem from="1730054585155" duration="27000" />
+      <workItem from="1730054824160" duration="1178000" />
+      <workItem from="1730064712200" duration="5415000" />
+      <workItem from="1730127852493" duration="19646000" />
+      <workItem from="1730150226683" duration="1936000" />
+      <workItem from="1730152285636" duration="10992000" />
+      <workItem from="1730171987028" duration="23000" />
+      <workItem from="1730218752446" duration="11690000" />
+      <workItem from="1730232408550" duration="5409000" />
+      <workItem from="1730239159216" duration="1032000" />
+      <workItem from="1730301579672" duration="1520000" />
+      <workItem from="1730303261156" duration="24000" />
+      <workItem from="1730303858948" duration="1224000" />
+      <workItem from="1730313344428" duration="423000" />
+      <workItem from="1730991634003" duration="130000" />
+      <workItem from="1730991778870" duration="8409000" />
+      <workItem from="1731009922223" duration="10907000" />
+      <workItem from="1731022876009" duration="5351000" />
+      <workItem from="1731081910028" duration="7473000" />
+      <workItem from="1731121945969" duration="5747000" />
+      <workItem from="1731157534940" duration="3837000" />
+      <workItem from="1731252051684" duration="9255000" />
+      <workItem from="1731282663416" duration="6773000" />
+      <workItem from="1731337685501" duration="5304000" />
+      <workItem from="1731359530148" duration="2747000" />
+      <workItem from="1731362997936" duration="773000" />
+      <workItem from="1731363806193" duration="564000" />
+      <workItem from="1731364423032" duration="652000" />
+      <workItem from="1731416978268" duration="11401000" />
+      <workItem from="1731428742300" duration="312000" />
+      <workItem from="1731684543436" duration="7883000" />
+      <workItem from="1731721841811" duration="802000" />
+      <workItem from="1731722896824" duration="5081000" />
+      <workItem from="1731853602321" duration="22000" />
+      <workItem from="1731872140534" duration="7249000" />
+      <workItem from="1731885006125" duration="675000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
