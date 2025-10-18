@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: vg-ms-academic-management
+
+  r2dbc:
+    url: r2dbc:postgresql://ep-bitter-truth-adjb7d7f-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require
+    username: neondb_owner
+    password: npg_D8rhSEazgFI7
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+    time-zone: UTC
+    date-format: yyyy-MM-dd HH:mm:ss
+
+server:
+  port: 8082
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    operations-sorter: alpha
+    tags-sorter: alpha
+  show-actuator: true
